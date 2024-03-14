@@ -70,6 +70,8 @@ public class SetUp {
 		{
 			System.out.println("Browser not found ");
 		}
+		
+		driver.get(url);
 	 }
 	 
 	 
