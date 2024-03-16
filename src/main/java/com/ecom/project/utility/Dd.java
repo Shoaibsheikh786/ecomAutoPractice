@@ -10,4 +10,19 @@ public class Dd {
 		Select sel=new Select(ele);
 		sel.selectByVisibleText(text);
 	}
+	public static void selectDayByIndex(WebElement BirthDay)
+	{
+		Select sel = new Select(BirthDay);
+		sel.selectByIndex(3);
+	}
+	public static void selectMonthByIndex(WebElement BirthMonth)
+	{
+		Select sel = new Select(BirthMonth);
+		sel.selectByIndex(12);
+	}
+	public static void selectYearByVtest(WebElement BirthYear, String text)
+	{
+		Select sel=new Select(BirthYear);
+		sel.selectByVisibleText(text);
+	}
 }

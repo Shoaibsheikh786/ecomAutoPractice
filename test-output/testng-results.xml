@@ -1,16 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-14T11:13:43 IST" name="Default suite" finished-at="2024-03-14T11:13:45 IST" duration-ms="1612">
+  <suite started-at="2024-03-14T19:15:31 IST" name="Default suite" finished-at="2024-03-14T19:15:33 IST" duration-ms="2283">
     <groups>
     </groups>
-    <test started-at="2024-03-14T11:13:43 IST" name="Default test" finished-at="2024-03-14T11:13:45 IST" duration-ms="1612">
+    <test started-at="2024-03-14T19:15:31 IST" name="Default test" finished-at="2024-03-14T19:15:33 IST" duration-ms="2283">
       <class name="com.ecom.project.test.RegisterTest">
-        <test-method signature="clickOnRegister()[pri:1, instance:com.ecom.project.test.RegisterTest@dbda472]" started-at="2024-03-14T11:13:43 IST" name="clickOnRegister" finished-at="2024-03-14T11:13:45 IST" duration-ms="1116" status="PASS">
+        <test-method signature="clickOnRegister()[pri:1, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:31 IST" name="clickOnRegister" finished-at="2024-03-14T19:15:31 IST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnRegister -->
+        <test-method signature="clickOnVerifyGenderFemale()[pri:2, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:31 IST" name="clickOnVerifyGenderFemale" finished-at="2024-03-14T19:15:31 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnVerifyGenderFemale -->
+        <test-method signature="fname()[pri:3, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:31 IST" name="fname" finished-at="2024-03-14T19:15:32 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fname -->
+        <test-method signature="lname()[pri:4, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:32 IST" name="lname" finished-at="2024-03-14T19:15:32 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lname -->
+        <test-method signature="checkDay()[pri:5, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:32 IST" name="checkDay" finished-at="2024-03-14T19:15:32 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDay -->
+        <test-method signature="checkMonth()[pri:6, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:32 IST" name="checkMonth" finished-at="2024-03-14T19:15:32 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMonth -->
+        <test-method signature="checkYear()[pri:7, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:32 IST" name="checkYear" finished-at="2024-03-14T19:15:32 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYear -->
+        <test-method signature="checkOnEmail()[pri:8, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:32 IST" name="checkOnEmail" finished-at="2024-03-14T19:15:33 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnEmail -->
+        <test-method signature="checkOnCompany()[pri:9, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:33 IST" name="checkOnCompany" finished-at="2024-03-14T19:15:33 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnCompany -->
+        <test-method signature="checkOnCheckBox()[pri:10, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:33 IST" name="checkOnCheckBox" finished-at="2024-03-14T19:15:33 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnCheckBox -->
+        <test-method signature="password()[pri:11, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:33 IST" name="password" finished-at="2024-03-14T19:15:33 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="checkOnConfirmPass()[pri:12, instance:com.ecom.project.test.RegisterTest@3cc74fc4]" started-at="2024-03-14T19:15:33 IST" name="checkOnConfirmPass" finished-at="2024-03-14T19:15:33 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnConfirmPass -->
       </class> <!-- com.ecom.project.test.RegisterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
